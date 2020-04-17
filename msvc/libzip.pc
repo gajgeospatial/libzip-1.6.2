@@ -1,0 +1,15 @@
+prefix=C:/Program Files (x86)/libzip
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+zipcmp=${exec_prefix}/bin/zipcmp
+
+Name: libzip
+Description: library for handling zip archives
+Version: 1.6.1a
+Libs:  -L${libdir} -lzip
+Libs.private:  -lC:/Development/op3d_active/zlib-1.2.8/vc110/Win32/Release/zlib.lib -lC:/Development/op3d_active/bzip2-1.0.6/vc141/x64/vs2017_Release/libbz2.lib -lC:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib -lbcrypt -ladvapi32
+Cflags: -I${includedir}
+

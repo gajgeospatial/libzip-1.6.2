@@ -1,0 +1,457 @@
+Determining if files CommonCrypto/CommonCrypto.h exist failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_de4da.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de4da.dir\Debug\\" /Fd"cmTC_de4da.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\COMMONCRYPTO_FOUND.c"
+  COMMONCRYPTO_FOUND.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\COMMONCRYPTO_FOUND.c(2): fatal error C1083: Cannot open include file: 'CommonCrypto/CommonCrypto.h': No such file or directory [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_de4da.vcxproj]
+
+Source:
+/* */
+#include <CommonCrypto/CommonCrypto.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _snprintf exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_78758.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_snprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_78758.dir\Debug\\" /Fd"cmTC_78758.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol __snprintf referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_78758.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_78758.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_78758.vcxproj]
+
+
+Determining if the function arc4random exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_2c383.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=arc4random /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c383.dir\Debug\\" /Fd"cmTC_2c383.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _arc4random referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_2c383.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2c383.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_2c383.vcxproj]
+
+
+Determining if the function clonefile exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_1439d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clonefile /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1439d.dir\Debug\\" /Fd"cmTC_1439d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clonefile referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_1439d.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_1439d.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_1439d.vcxproj]
+
+
+Determining if the function explicit_bzero exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_926e4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=explicit_bzero /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_926e4.dir\Debug\\" /Fd"cmTC_926e4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _explicit_bzero referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_926e4.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_926e4.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_926e4.vcxproj]
+
+
+Determining if the function explicit_memset exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_00535.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=explicit_memset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00535.dir\Debug\\" /Fd"cmTC_00535.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _explicit_memset referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_00535.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_00535.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_00535.vcxproj]
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_23071.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23071.dir\Debug\\" /Fd"cmTC_23071.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_23071.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_23071.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_23071.vcxproj]
+
+
+Determining if the function ftello exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_ba4bb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ftello /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba4bb.dir\Debug\\" /Fd"cmTC_ba4bb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _ftello referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_ba4bb.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_ba4bb.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_ba4bb.vcxproj]
+
+
+Determining if the function getprogname exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b2992.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getprogname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2992.dir\Debug\\" /Fd"cmTC_b2992.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getprogname referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_b2992.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b2992.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_b2992.vcxproj]
+
+
+Determining if the function localtime_r exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_a666a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localtime_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a666a.dir\Debug\\" /Fd"cmTC_a666a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _localtime_r referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_a666a.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_a666a.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_a666a.vcxproj]
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_64b50.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64b50.dir\Debug\\" /Fd"cmTC_64b50.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _snprintf referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_64b50.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_64b50.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_64b50.vcxproj]
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_c55c5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c55c5.dir\Debug\\" /Fd"cmTC_c55c5.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strcasecmp referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_c55c5.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_c55c5.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_c55c5.vcxproj]
+
+
+Determining if files sys/types.h;sys/stat.h;fts.h exist failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_03035.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03035.dir\Debug\\" /Fd"cmTC_03035.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_FTS_H.c"
+  HAVE_FTS_H.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_FTS_H.c(4): fatal error C1083: Cannot open include file: 'fts.h': No such file or directory [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_03035.vcxproj]
+
+Source:
+/* */
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fts.h>
+
+
+int main(void){return 0;}
+
+Determining if files strings.h exist failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_996b9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_996b9.dir\Debug\\" /Fd"cmTC_996b9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c"
+  HAVE_STRINGS_H.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_996b9.vcxproj]
+
+Source:
+/* */
+#include <strings.h>
+
+
+int main(void){return 0;}
+
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_33c88.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33c88.dir\Debug\\" /Fd"cmTC_33c88.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c"
+  HAVE_UNISTD_H.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_33c88.vcxproj]
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_d6e36.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6e36.dir\Debug\\" /Fd"cmTC_d6e36.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c"
+  SSIZE_T_LIBZIP.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c(25): error C2065: 'ssize_t': undeclared identifier [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_d6e36.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c(26): error C2065: 'ssize_t': undeclared identifier [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_d6e36.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c(27): error C2065: 'ssize_t': undeclared identifier [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_d6e36.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c(28): error C2065: 'ssize_t': undeclared identifier [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_d6e36.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CheckTypeSize\SSIZE_T_LIBZIP.c(29): error C2065: 'ssize_t': undeclared identifier [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_d6e36.vcxproj]
+
+C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CheckTypeSize/SSIZE_T_LIBZIP.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test HAVE_FICLONERANGE failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_41a1c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_FICLONERANGE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41a1c.dir\Debug\\" /Fd"cmTC_41a1c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c(1): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_41a1c.vcxproj]
+
+Source file was:
+#include <sys/ioctl.h>
+#include <linux/fs.h>
+int main(int argc, char *argv[]) { unsigned long x = FICLONERANGE; }
+Performing C SOURCE FILE Test HAVE_NULLABLE failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_368c9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_NULLABLE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_368c9.dir\Debug\\" /Fd"cmTC_368c9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c"
+  src.c
+  
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c(2): error C2146: syntax error: missing ')' before identifier 'bar' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_368c9.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c(2): error C2061: syntax error: identifier 'bar' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_368c9.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c(2): error C2059: syntax error: ';' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_368c9.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\src.c(2): error C2059: syntax error: ')' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_368c9.vcxproj]
+
+Source file was:
+
+int foo(char * _Nullable bar);
+int main(int argc, char *argv[]) { }
+Determining if the function getopt exists failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_9e2b3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Development\op3d_active\zlib-1.2.8" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e2b3.dir\Debug\\" /Fd"cmTC_9e2b3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getopt referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_9e2b3.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_9e2b3.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_9e2b3.vcxproj]
+
+
+Determining if the function lzma_auto_decoder exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_c51bb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_auto_decoder /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c51bb.dir\Debug\\" /Fd"cmTC_c51bb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_auto_decoder referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_c51bb.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_c51bb.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_c51bb.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_c51bb.vcxproj]
+
+
+Determining if the function lzma_easy_encoder exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_b18ea.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_easy_encoder /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18ea.dir\Debug\\" /Fd"cmTC_b18ea.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_easy_encoder referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_b18ea.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_b18ea.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b18ea.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_b18ea.vcxproj]
+
+
+Determining if the function lzma_lzma_preset exists in the C:/Development/op3d_active/liblzma-5.2.5/windows/vc141/x64/vs2017_Release/liblzma.lib failed with the following output:
+Change Dir: C:/Development/op3d_active/libzip-1.6.2/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise/MSBuild/15.0/Bin/MSBuild.exe cmTC_2dbb1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m 
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=lzma_lzma_preset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2dbb1.dir\Debug\\" /Fd"cmTC_2dbb1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.14\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _lzma_lzma_preset referenced in function _main [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_2dbb1.vcxproj]
+C:\Development\op3d_active\liblzma-5.2.5\windows\vc141\x64\vs2017_Release\liblzma.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86' [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_2dbb1.vcxproj]
+C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_2dbb1.exe : fatal error LNK1120: 1 unresolved externals [C:\Development\op3d_active\libzip-1.6.2\msvc\CMakeFiles\CMakeTmp\cmTC_2dbb1.vcxproj]
+
+
