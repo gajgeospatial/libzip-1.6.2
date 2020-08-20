@@ -366,5 +366,13 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{FDB2BF82-F142-3C4B-BA96-1BA22BAA8149}</UniqueIdentifier>
     </Filter>
+    <Filter Include="HeaderFiles">
+      <UniqueIdentifier>{d5cfa3f9-7dd7-490e-b2be-00c0b0a709ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\zip.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

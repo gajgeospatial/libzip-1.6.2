@@ -851,6 +851,9 @@
     <ClCompile Include="..\..\lib\zip_source_win32a.c" />
     <ClCompile Include="..\..\lib\zip_random_win32.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\lib\zip.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
